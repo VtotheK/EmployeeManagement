@@ -10,5 +10,6 @@ namespace EmployeeManagement.ViewModels
     {
         public Employee Employee { get; set; }
         public string PageTitle { get; set; } = "Hello world from HomeDetailsViewModel";
+
     }
 }

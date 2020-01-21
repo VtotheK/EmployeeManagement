@@ -26,8 +26,8 @@ namespace EmployeeManagement.Controllers
         {
             HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
             {
-                Employee = _employeeRepository.GetEmployee(id??1),
-                PageTitle = "Employee details"
+                Employee = _employeeRepository.GetEmployee(id ?? 1),
+                PageTitle = "Employee details",
             };
             return View(homeDetailsViewModel);
         }

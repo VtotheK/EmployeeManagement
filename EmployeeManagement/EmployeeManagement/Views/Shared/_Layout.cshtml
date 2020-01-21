@@ -2,11 +2,14 @@
 
 <html>
 <head>
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width" />
+    <link href="~/css/Index.css" rel="stylesheet" />
     <title>@ViewBag.Title</title>
+
 </head>
 <body>
-    <div>
+    <div class="container">
         @RenderBody()
     </div>
     @RenderSection("Scripts", required:false)
