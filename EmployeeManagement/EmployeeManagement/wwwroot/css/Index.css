@@ -1,3 +1,8 @@
 ﻿.btn{
     width:125px;
 }
+
+.thumbnailImg{
+    height:200px;
+    width:auto;
+}
